@@ -1,0 +1,61 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.omdbapi.com/?apikey=1e4a60c0&t=fargo&type=&y=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 10 Jul 2020 00:56:27 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d7e861df447a7cf32c7862cc28faa0e1b1594342587; expires=Sun, 09-Aug-20
+        00:56:27 GMT; path=/; domain=.omdbapi.com; HttpOnly; SameSite=Lax
+      Cache-Control:
+      - public, max-age=86400
+      Expires:
+      - Thu, 09 Jul 2020 23:23:32 GMT
+      Last-Modified:
+      - Thu, 09 Jul 2020 22:23:32 GMT
+      Vary:
+      - "*, Accept-Encoding"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - HIT
+      Age:
+      - '9175'
+      Cf-Request-Id:
+      - 03d7d254790000c7d969b33200000001
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5b065333fb74c7d9-DEN
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJUaXRsZSI6IkZhcmdvIiwiWWVhciI6IjE5OTYiLCJSYXRlZCI6IlIiLCJSZWxlYXNlZCI6IjA1IEFwciAxOTk2IiwiUnVudGltZSI6Ijk4IG1pbiIsIkdlbnJlIjoiQ3JpbWUsIERyYW1hLCBUaHJpbGxlciIsIkRpcmVjdG9yIjoiSm9lbCBDb2VuLCBFdGhhbiBDb2VuIiwiV3JpdGVyIjoiRXRoYW4gQ29lbiwgSm9lbCBDb2VuIiwiQWN0b3JzIjoiV2lsbGlhbSBILiBNYWN5LCBTdGV2ZSBCdXNjZW1pLCBQZXRlciBTdG9ybWFyZSwgS3Jpc3RpbiBSdWRyw7xkIiwiUGxvdCI6IkplcnJ5IEx1bmRlZ2FhcmQncyBpbmVwdCBjcmltZSBmYWxscyBhcGFydCBkdWUgdG8gaGlzIGFuZCBoaXMgaGVuY2htZW4ncyBidW5nbGluZyBhbmQgdGhlIHBlcnNpc3RlbnQgcG9saWNlIHdvcmsgb2YgdGhlIHF1aXRlIHByZWduYW50IE1hcmdlIEd1bmRlcnNvbi4iLCJMYW5ndWFnZSI6IkVuZ2xpc2giLCJDb3VudHJ5IjoiVVNBLCBVSyIsIkF3YXJkcyI6IldvbiAyIE9zY2Fycy4gQW5vdGhlciA4MSB3aW5zICYgNTcgbm9taW5hdGlvbnMuIiwiUG9zdGVyIjoiaHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL00vTVY1Qk5ESmlaRGd5WmpjdFltUmpNUzAwWmpka0xUa3dNVEV0TkdVMU5EZzNORFEwWXprMVhrRXlYa0ZxY0dkZVFYVnlOemt3TWpRNU56TUAuX1YxX1NYMzAwLmpwZyIsIlJhdGluZ3MiOlt7IlNvdXJjZSI6IkludGVybmV0IE1vdmllIERhdGFiYXNlIiwiVmFsdWUiOiI4LjEvMTAifSx7IlNvdXJjZSI6IlJvdHRlbiBUb21hdG9lcyIsIlZhbHVlIjoiOTQlIn0seyJTb3VyY2UiOiJNZXRhY3JpdGljIiwiVmFsdWUiOiI4NS8xMDAifV0sIk1ldGFzY29yZSI6Ijg1IiwiaW1kYlJhdGluZyI6IjguMSIsImltZGJWb3RlcyI6IjU5NSw4MTIiLCJpbWRiSUQiOiJ0dDAxMTYyODIiLCJUeXBlIjoibW92aWUiLCJEVkQiOiIyNCBKdW4gMTk5NyIsIkJveE9mZmljZSI6Ik4vQSIsIlByb2R1Y3Rpb24iOiJHcmFtZXJjeSBQaWN0dXJlcyIsIldlYnNpdGUiOiJOL0EiLCJSZXNwb25zZSI6IlRydWUifQ==
+  recorded_at: Fri, 10 Jul 2020 00:56:27 GMT
+recorded_with: VCR 6.0.0

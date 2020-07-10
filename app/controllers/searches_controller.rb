@@ -21,7 +21,7 @@ class SearchesController < ApplicationController
     if @search.save
       render json: @search.content, status: :created, location: @search
     else
-      render json: @search.content
+      render json: @search.errors, status: :unprocessable_entity
     end
   end
 

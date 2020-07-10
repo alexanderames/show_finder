@@ -1,0 +1,238 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.omdbapi.com/?apikey=1e4a60c0&t=&type=&y=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 10 Jul 2020 16:07:14 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d62564c2fc2c9a7cc885e1165e3095bb11594397234; expires=Sun, 09-Aug-20
+        16:07:14 GMT; path=/; domain=.omdbapi.com; HttpOnly; SameSite=Lax
+      Cache-Control:
+      - public, max-age=86400
+      Expires:
+      - Fri, 10 Jul 2020 17:07:14 GMT
+      Last-Modified:
+      - Fri, 10 Jul 2020 16:07:14 GMT
+      Vary:
+      - "*, Accept-Encoding"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - MISS
+      Cf-Request-Id:
+      - 03db142ba40000c7b96793a200000001
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5b0b89590c16c7b9-DEN
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":"False","Error":"Something went wrong."}'
+  recorded_at: Fri, 10 Jul 2020 16:07:14 GMT
+- request:
+    method: get
+    uri: http://www.omdbapi.com/?apikey=1e4a60c0&t=&type=&y=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 10 Jul 2020 16:27:32 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d9a3aa4fbb009dc655fb438054cd6f07f1594398452; expires=Sun, 09-Aug-20
+        16:27:32 GMT; path=/; domain=.omdbapi.com; HttpOnly; SameSite=Lax
+      Cache-Control:
+      - public, max-age=86400
+      Expires:
+      - Fri, 10 Jul 2020 17:07:14 GMT
+      Last-Modified:
+      - Fri, 10 Jul 2020 16:07:14 GMT
+      Vary:
+      - "*, Accept-Encoding"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - HIT
+      Age:
+      - '1218'
+      Cf-Request-Id:
+      - 03db26c3d70000f778e29eb200000001
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5b0ba7195deaf778-DEN
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":"False","Error":"Something went wrong."}'
+  recorded_at: Fri, 10 Jul 2020 16:27:32 GMT
+- request:
+    method: get
+    uri: http://www.omdbapi.com/?apikey=1e4a60c0&t=&type=&y=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 10 Jul 2020 17:21:09 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d5fa75eb512f16343af4365f720a02aad1594401669; expires=Sun, 09-Aug-20
+        17:21:09 GMT; path=/; domain=.omdbapi.com; HttpOnly; SameSite=Lax
+      Cache-Control:
+      - public, max-age=86400
+      Expires:
+      - Fri, 10 Jul 2020 17:07:14 GMT
+      Last-Modified:
+      - Fri, 10 Jul 2020 16:07:14 GMT
+      Vary:
+      - "*, Accept-Encoding"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - HIT
+      Age:
+      - '4435'
+      Cf-Request-Id:
+      - 03db57d8fc0000c7c10a8d9200000001
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5b0bf5a19fc0c7c1-DEN
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":"False","Error":"Something went wrong."}'
+  recorded_at: Fri, 10 Jul 2020 17:21:09 GMT
+- request:
+    method: get
+    uri: http://www.omdbapi.com/?apikey=1e4a60c0&t=batman&type=&y=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 10 Jul 2020 17:27:59 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d6cf5a176b0f090addc600e65cc26680e1594402079; expires=Sun, 09-Aug-20
+        17:27:59 GMT; path=/; domain=.omdbapi.com; HttpOnly; SameSite=Lax
+      Cache-Control:
+      - public, max-age=86400
+      Expires:
+      - Fri, 10 Jul 2020 17:44:24 GMT
+      Last-Modified:
+      - Fri, 10 Jul 2020 16:44:24 GMT
+      Vary:
+      - "*, Accept-Encoding"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - HIT
+      Age:
+      - '2615'
+      Cf-Request-Id:
+      - 03db5e19a10000c7c1102d5200000001
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5b0bffa29f67c7c1-DEN
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Title":"Batman","Year":"1989","Rated":"PG-13","Released":"23 Jun
+        1989","Runtime":"126 min","Genre":"Action, Adventure","Director":"Tim Burton","Writer":"Bob
+        Kane (Batman characters), Sam Hamm (story), Sam Hamm (screenplay), Warren
+        Skaaren (screenplay)","Actors":"Michael Keaton, Jack Nicholson, Kim Basinger,
+        Robert Wuhl","Plot":"The Dark Knight of Gotham City begins his war on crime
+        with his first major enemy being Jack Napier, a criminal who becomes the clownishly
+        homicidal Joker.","Language":"English, French, Spanish","Country":"USA, UK","Awards":"Won
+        1 Oscar. Another 8 wins & 26 nominations.","Poster":"https://m.media-amazon.com/images/M/MV5BMTYwNjAyODIyMF5BMl5BanBnXkFtZTYwNDMwMDk2._V1_SX300.jpg","Ratings":[{"Source":"Internet
+        Movie Database","Value":"7.5/10"},{"Source":"Rotten Tomatoes","Value":"71%"},{"Source":"Metacritic","Value":"69/100"}],"Metascore":"69","imdbRating":"7.5","imdbVotes":"329,552","imdbID":"tt0096895","Type":"movie","DVD":"25
+        Mar 1997","BoxOffice":"N/A","Production":"Warner Bros. Pictures","Website":"N/A","Response":"True"}'
+  recorded_at: Fri, 10 Jul 2020 17:27:59 GMT
+recorded_with: VCR 6.0.0

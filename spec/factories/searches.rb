@@ -3,5 +3,10 @@ FactoryBot.define do
     title { 'pulp fiction' }
     year { '1994' }
     type { 'movie' }
+    content do
+      {
+        Faker::Movie.title => Faker::Movie.quote
+      }
+    end
   end
 end
