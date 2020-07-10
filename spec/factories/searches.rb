@@ -2,7 +2,7 @@ FactoryBot.define do
   factory :search do
     title { 'pulp fiction' }
     year { '1994' }
-    type { 'movie' }
+    format { 'movie' }
     content do
       {
         Faker::Movie.title => Faker::Movie.quote

@@ -3,7 +3,7 @@ class CreateSearches < ActiveRecord::Migration[6.0]
     create_table :searches do |t|
       t.string :title
       t.string :year
-      t.string :type
+      t.string :format
       t.json :content
 
       t.timestamps

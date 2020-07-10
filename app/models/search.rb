@@ -7,7 +7,7 @@ class Search < ApplicationRecord
 
   def shows(params)
     self.class.get(
-      "?t=#{params[:title]}&apikey=1e4a60c0&type=#{params[:type]}&y=#{params[:year]}"
+      "?t=#{params[:title]}&apikey=1e4a60c0&type=#{params[:format]}&y=#{params[:year]}"
     )
   end
 end

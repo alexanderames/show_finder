@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(version: 2020_07_09_194138) do
   create_table "searches", force: :cascade do |t|
     t.string "title"
     t.string "year"
-    t.string "type"
+    t.string "format"
     t.json "content"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
