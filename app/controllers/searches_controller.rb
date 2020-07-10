@@ -5,6 +5,8 @@ class SearchesController < ApplicationController
   def index
     @searches = Search.all
 
+    @searches = @searches.title_contains(search_params[:title]) if search_params[:title].present?
+
     render json: @searches
   end
 

@@ -22,6 +22,19 @@ RSpec.describe Search, type: :model do
       it { expect(subject).to be_invalid }
     end
 
+    context 'scopes' do
+      let!(:search1) { create(:search) }
+      let!(:search2) { create(:search, title: 'zodiac') }
+
+      it 'default sort by ascending name' do
+        expect(Search.all).to eq([search1, search2])
+      end
+
+      it 'filter by name' do
+        expect(Search.all.title_contains('zodiac')).to eq([search2])
+      end
+    end
+
     let(:params) do
       { title: 'fargo' }
     end
