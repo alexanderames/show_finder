@@ -1,8 +1,6 @@
-# README
+# [Show Finder](https://show-finder.herokuapp.com/)
 
 This Ruby on Rails API searches tv/movie shows.
-
-## Show Finder
 
 The following are valid parameters when creating a [new Search](#post-searches):
 
@@ -29,7 +27,7 @@ After a Search is created, the data returned is saved under `content` in json fo
 
 ## Endpoints
 
-The following endpoints and how to communicate with them:
+The following endpoints can be appended to https://show-finder.herokuapp.com/ :
 
 ### GET /searches(/:id)
 
