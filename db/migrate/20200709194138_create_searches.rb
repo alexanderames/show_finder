@@ -4,7 +4,7 @@ class CreateSearches < ActiveRecord::Migration[6.0]
       t.string :title
       t.string :year
       t.string :format
-      t.json :content
+      t.jsonb :content
 
       t.timestamps
     end
